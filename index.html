@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/bootstrap.css.map">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <title>Imtihon-2</title>
+</head>
+<body>
+    <div class="container mt-5">
+        <form class="row g-3" id="form"> 
+            <div class="col-md-6">
+              <label for="inputEmail4" class="form-label">Ismingiz</label>
+              <input type="text" class="form-control ism" required id="inputEmail4">
+            </div>
+            <div class="col-md-6">
+              <label for="inputPassword4" class="form-label">Familiyangiz</label>
+              <input type="text" class="form-control fam" required id="inputPassword4">
+            </div>
+            <div class="col-md-6">
+              <label for="inputCity" class="form-label">Guruh</label>
+              <input type="text" class="form-control gr" required id="inputCity">
+            </div>
+            <div class="col-md-3">
+              <label for="inputState" class="form-label">Jinsingiz</label>
+              <select id="inputState" required class="form-select jsn">
+                  <option value="Erkak">Erkak</option>
+                  <option value="Ayol">Ayol</option>
+            </select>
+            </div>
+            <div class="col-md-3">
+              <label for="inputState" class="form-label">Otdingizmi</label>
+              <select id="inputState" required class="form-select chex">
+                  <option value="Ha">Ha</option>
+                  <option value="Yoq">Yoq</option>
+            </select>
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary">Sign in</button>
+            </div>
+          </form>
+      
+
+
+
+
+          <table class="table table-dark table-striped mt-5">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">FIO</th>
+                <th scope="col">Sinf Raqami</th>
+                <th scope="col">Jinsi</th>
+                <th scope="col">O'ta oldimi</th>
+                <th scope="col">Boshqaruv</th>
+              </tr>
+            </thead>
+            <tbody class="tbody">
+              
+            </tbody>
+          </table>
+    </div>
+
+
+
+    <template id="template">
+        <tr>
+            <th scope="raqam">1</th>
+            <td class="fio">Mark</td>
+            <td class="sinf">Otto</td>
+            <td class="jins">@mdo</td>
+            <td class="otdi">@mdo</td>
+            <td class="ochir">O'chirish</td>
+        </tr>
+    </template>
+
+    <script src="./js/main.js" type="module"></script>
+</body>
+</html>
